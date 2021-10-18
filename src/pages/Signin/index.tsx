@@ -1,7 +1,5 @@
 import React from 'react';
 
-import { StatusBar } from 'react-native';
-
 import { ButtonIcon } from '../../components/ButtonIcon';
 
 import Illustration from '../../assets/illustration.png';
@@ -10,18 +8,13 @@ import { Container, Image, Content, Title, SubTitle } from './styles';
 export function Signin() {
   return (
     <Container>
-      <StatusBar 
-        barStyle='light-content'
-        backgroundColor='transparent'
-        translucent
-      />
       <Image source={Illustration}/>
 
       <Content>
         <Title>
-          Organize {`\n`}
-          suas jogatinas {`\n`}
-          facilmente
+          Conecte-se {`\n`}
+          e organize suas{`\n`}
+          jogatinas
         </Title>
 
         <SubTitle>
@@ -29,8 +22,14 @@ export function Signin() {
           favoritos com seus amigos.
         </SubTitle>
 
-        <ButtonIcon 
+        <ButtonIcon
+          source={require('../../assets/discord.png')} 
           title="Entrar com o Discord"
+          activeOpacity={0.7}
+        />
+        <ButtonIcon
+          source={require('../../assets/google1.png')} 
+          title="Entrar com o Gmail"
           activeOpacity={0.7}
         />
 

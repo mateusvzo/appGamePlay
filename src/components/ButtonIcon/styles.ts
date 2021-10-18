@@ -8,6 +8,7 @@ export const Container = styled.TouchableOpacity`
   border-radius: 8px;
   flex-direction: row;
   align-items: center;
+  margin-bottom: 10px;
 `;
 
 export const Title = styled.Text`
@@ -28,5 +29,5 @@ export const IconWrapper = styled.View`
 
 export const Icon = styled.Image`
   width: 24px;
-  height: 18px;
+  height: 22px;
 `;
