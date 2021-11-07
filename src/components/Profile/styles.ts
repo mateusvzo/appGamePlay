@@ -6,7 +6,6 @@ export const Container = styled.View`
 `;
 
 export const Content = styled.View`
-
 `;
 
 export const User = styled.View`

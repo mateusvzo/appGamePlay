@@ -1,4 +1,5 @@
 import React from 'react';
+import { Avatar } from '../Avatar';
 import { 
   Container,
   Content,
@@ -11,6 +12,9 @@ import {
 export function Profile(){
   return (
     <Container>
+        <Avatar 
+          urlImage= 'https://avatars.githubusercontent.com/u/56977047?v=4'
+        />
       <Content>
         <User>
           <Greeting>
