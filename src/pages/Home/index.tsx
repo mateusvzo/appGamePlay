@@ -1,4 +1,5 @@
 import React from 'react';
+import { ButtonAdd } from '../../components/ButtonAdd';
 
 import { Profile } from '../../components/Profile';
 
@@ -13,6 +14,7 @@ export function Home(){
     <Container>
       <Header>
         <Profile />
+        <ButtonAdd />
       </Header>
     </Container>
   );
