@@ -5,7 +5,7 @@ export const Container = styled.View`
   flex: 1;
   align-items: center;
   justify-content: center;
-  /* background-color: ${({ theme }) => theme.colors.background}; */
+  background-color: ${({ theme }) => theme.colors.secondary90};
 `;
 
 export const Image = styled.Image`
